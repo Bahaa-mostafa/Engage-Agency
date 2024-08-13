@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.clr {
+    clear: both;
+}
+.body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home {
+
+    background-image:url(img/Home.jpg);
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.home .hometext {
+    width: 100%;
+    height: 100%;
+    font-size: 76px;
+    color: #ffffff;
+    background-color: rgba(97, 141, 243, 0.904);
+    
+}
+.home .hometext h1 {
+    font-size: 76px;
+    text-transform: capitalize;
+}
+.home .hometext p {
+    padding: 15px;
+    font-size: 25;
+    line-height:1.8;
+}
+.home .hometext .btn {
+    border: none;
+    padding: 15px 34px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.hometext .btn:hover {
+    background-color: rgba(238, 250, 253, 0.5);
+}
+
+/* ---------------------------------- */
+.container .title {
+    text-align: center;
+    padding: 30px;
+}
+.container .title h2 {
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.container .title p {
+    font-size: 20;
+    line-height: 1.8;
+
+} 
+/* ---------------------------------- */
+.page .pagebody .item {
+    float: left;
+    width:33.33%;
+    padding: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+.pagebody .item h3 {
+    font-size: 20px;
+    padding: 20px 0;
+    text-align: left;
+
+}
+.pagebody .item p {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+
+}
+/* ---------------------------------- */
+.pageimg {
+    text-align: center;
+    padding: 40px;
+
+}
+.pageimg .pagetitle h4 {
+    font-size: 40px;
+
+}
+.pageimg .pagetitle p {
+    font-size: 20px;
+    padding: 50px;
+}
+.pageimg .btn {
+    padding: 10px 30px;
+    background-color: rgb(255, 255, 255);
+    border: white;
+    cursor: pointer;
+    transition: all .5s ;
+}
+.btn:hover {
+    background-color: rgb(183, 219, 233);
+}
+/* ---------------------------------- */
+
+.container .title {
+    padding: 50px;
+    text-align: center;
+}
+.container .title h4 {
+    text-align: center;
+    font-size: 28px;
+}
+.container .title p {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+}   
+.container .title .btn {
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.container .item {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 5px 10px;  
+}
+.container .item img {
+    height: 300px;
+}
+.item .itemimg {
+    overflow: hidden;
+}
+.container .item h5 {
+    padding: 1  0px;
+    font-size: 35px;
+    background-color: rgb(250, 252, 252);
+}
+.container .item p {
+    background-color: rgb(250, 252, 252);
+    font-size: 16px;
+}
+.item img {
+    transition: all 0.5s;
+}
+.item:hover img {
+    transform: scale(1.1);
+}
+.perant {
+    padding: 20px;
+    text-align: center;
+}
+.perant .title h5 {
+    font-size: 30px;
+    padding: 20px;
+}
+.perant .title p {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.8;
+}
+.pagebody .item1 {
+    float: left;
+    width:33.33%;
+    padding: 20px;
+}
+.pagebody .item1 p {
+    background-color: #f1eeee;
+    text-align:left;
+    font-size: 22px;
+    line-height: 1.8;
+    padding: 20px;
+    height: 300px;
+}
+.pagebody .item1 h4 {
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 18px; 
+}
+.pagebody .item1 h5 {
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.lastp .title h3 {
+    text-align: center;
+    font-size: 35px;
+}
+.lastp .title p {
+    text-align:center;
+    font-size: 20px;
+}
+.lastp .image {
+    width: 33.33%;
+    float: left;
+    padding: 20px 20px;
+}
+.lastp .image img {
+    height: 250px;
+}
+.lastp .image .text {
+    background-color: rgb(250, 247, 247 );
+}
+.lastp .image h4 {
+    font-size: 25px;
+    padding: 10px;
+}
+.lastp .image .prag {
+    font-size: 12px;
+    padding: 10px;
+}
+.lastp .image p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0px 10px ;
+}
+.lastp .image .btn {
+    padding: 10px 10px;
+    border:rgb(255, 255, 255);
+    background-color:rgb(250, 247, 247);
+    cursor: pointer;
+}
+.foot .title {
+    text-align: center;
+    padding: 40px 0;
+ 
+}
+.foot .title h2 { 
+    padding: 10px;
+    font-size: 30px;
+}
+.foot .title p {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+.foot .title .btn1 {
+    padding: 23px 40px;
+    border-radius: 5%;
+    background-color: rgb(84, 84, 238);
+    border: none ;
+    cursor: pointer;
+    color: #f1eeee;
+    transition: all .5s;
+}
+.title .btn1:hover {
+    background-color: rgb(0, 0, .1);
+}
+.search .page {
+    height:650px ;
+    background: url(img/8.jpg) right bottom no-repeat, url(img/3.jpg) left top no-repeat ;
+    background-size: 50%, 50% ;
+}
